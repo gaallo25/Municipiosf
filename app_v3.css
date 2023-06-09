@@ -69,7 +69,7 @@
 }
 .whatsapp-icon-container {
   position: fixed;
-  bottom: 75px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  bottom: 35px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
   right: 35px; /* Ajusta la distancia desde la parte derecha según tus necesidades */
   z-index: 9999; /* Ajusta el valor del índice z si es necesario */
   width: 70px;
