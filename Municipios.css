@@ -56,6 +56,7 @@ body {
   background-image: url(Bannerp.png);
   background-size: 100%;
   margin-top: 135px;
+  background-repeat: no-repeat;
 }
 .banner {
   display: flex;
@@ -125,7 +126,6 @@ body {
   padding: 0px 60px;
 }
 .logo-aliados {
-  background-color: white;
   border-radius: 50px;
   width: 100px;
   height: 100px;
@@ -135,14 +135,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contactanos a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-}
-.container-tajeta p{
-max-width: 100%;
 }
 .roboto-regular {
   font-family: RobotoRegular;
@@ -215,12 +207,18 @@ max-width: 100%;
   position: absolute;
   top: -170px;
 }
+.contactanos a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
 .pequeña {
   display: none;
 }
 .contactanos {
   display: flex;
 }
+
 .contactanos img {
   max-height: 10%;
 }
@@ -394,6 +392,9 @@ max-width: 100%;
   font-family: BasisBlack;
   font-size: 6.5rem;
 }
+.logo-aliados img {
+  max-width: 100%;
+}
 /* 
 
 
@@ -413,6 +414,9 @@ max-width: 100%;
   background-size: 60%;
   background-position: 51%;
   background-repeat: no-repeat;
+}
+.container-tajeta p {
+  max-width: 100%;
 }
 div label {
   font-family: RobotoRegular;
@@ -556,8 +560,26 @@ div label {
     overflow: hidden;
     padding-bottom: 1rem;
   }
+  .banner-form {
+    background-size: 110%;
+  }
+  .whatsapp-icon-container {
+    width: 120px;
+  }
   .impacto {
     display: block;
+  }
+  .card-equipo {
+    margin: 20px 170px;
+  }
+  .card-equipo .nombre p {
+    font-size: 1.5rem;
+  }
+  .card-equipo .biografia p {
+    font-size: 1.3rem;
+  }
+  .profesion {
+    font-size: 1.3rem;
   }
   .tabla .imgtabla {
     max-width: 100%;
@@ -566,8 +588,9 @@ div label {
     font-size: 3rem;
   }
   .impacto .circulos-carrusel {
-    margin-top: -30px;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 99;
   }
   .title-curso {
     width: 100%;
