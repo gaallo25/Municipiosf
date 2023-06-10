@@ -20,6 +20,7 @@ if (screen.width < 1024) {
   let menuMobil = document.getElementById("hamburgerMenu");
   let navbarMenuMovil = document.getElementById("navbarMenuMovil");
   menuMobil.addEventListener("click", () => {
+    console.log("click");
     navbarMenuMovil.classList.toggle("ocultar-movil");
   });
   //---------------------------------------------------------------------

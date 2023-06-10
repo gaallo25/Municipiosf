@@ -54,7 +54,7 @@ body {
 }
 .banner-form {
   background-image: url(Bannerp.png);
-  background-size: 100%;
+  background-size: 113%;
   margin-top: 135px;
   background-repeat: no-repeat;
 }
@@ -62,13 +62,16 @@ body {
   display: flex;
   height: 100%;
 }
+.whatsapp-icon-container {
+  z-index: 9999999999999;
+}
 .equipo {
   padding: 3rem 0px;
   text-align: center;
   font-size: 1.6rem;
   font-family: "BasisBlack";
   color: #66ad49;
-  background-image: url(Equipo.png);
+  background-image: url(imagenequipo.webp);
   background-size: 100%;
   margin-top: -90px;
 }
@@ -653,6 +656,12 @@ div label {
   }
   .impacto {
     overflow: hidden;
+  }
+  .form {
+    max-width: 100% !important;
+  }
+  .form-municipios input {
+    padding: 15px 15px;
   }
   .container-cards-aprendemos .title {
     font-size: 1.8rem;
